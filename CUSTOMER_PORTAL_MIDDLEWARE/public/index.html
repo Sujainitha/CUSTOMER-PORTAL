@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Customer Portal API</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 20px;
+            background-color: #f5f5f5;
+        }
+        .container {
+            background: white;
+            padding: 30px;
+            border-radius: 8px;
+            box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+        }
+        h1 {
+            color: #333;
+            text-align: center;
+        }
+        .endpoint {
+            background: #f8f9fa;
+            padding: 15px;
+            margin: 10px 0;
+            border-left: 4px solid #007bff;
+            border-radius: 4px;
+        }
+        .method {
+            font-weight: bold;
+            color: #28a745;
+        }
+        .url {
+            font-family: monospace;
+            background: #e9ecef;
+            padding: 2px 6px;
+            border-radius: 3px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Customer Portal Middleware API</h1>
+        <p>This is a backend API server for the customer portal. Available endpoints:</p>
+        
+        <div class="endpoint">
+            <div class="method">POST</div>
+            <div class="url">/custlogin</div>
+            <p>Customer login validation</p>
+        </div>
+        
+        <div class="endpoint">
+            <div class="method">POST</div>
+            <div class="url">/custprofile</div>
+            <p>Get customer profile information</p>
+        </div>
+        
+        <div class="endpoint">
+            <div class="method">POST</div>
+            <div class="url">/custinquiry</div>
+            <p>Get customer inquiry data</p>
+        </div>
+        
+        <div class="endpoint">
+            <div class="method">POST</div>
+            <div class="url">/custsalesorder</div>
+            <p>Get customer sales orders</p>
+        </div>
+        
+        <div class="endpoint">
+            <div class="method">POST</div>
+            <div class="url">/custdelivery</div>
+            <p>Get customer delivery information</p>
+        </div>
+        
+        <div class="endpoint">
+            <div class="method">POST</div>
+            <div class="url">/custinvoice</div>
+            <p>Get customer invoices</p>
+        </div>
+        
+        <div class="endpoint">
+            <div class="method">POST</div>
+            <div class="url">/customerinvoicepdf</div>
+            <p>Get customer invoice PDF</p>
+        </div>
+        
+        <div class="endpoint">
+            <div class="method">POST</div>
+            <div class="url">/customerpayage</div>
+            <p>Get customer payment and aging information</p>
+        </div>
+        
+        <div class="endpoint">
+            <div class="method">POST</div>
+            <div class="url">/custcd</div>
+            <p>Get credit and debit memo information</p>
+        </div>
+        
+        <div class="endpoint">
+            <div class="method">POST</div>
+            <div class="url">/custoverallsales</div>
+            <p>Get overall sales information</p>
+        </div>
+    </div>
+</body>
+</html>
